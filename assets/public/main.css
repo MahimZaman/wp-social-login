@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --font: "Inter", sans-serif;
+}
+
+a.wpsl-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none !important;
+  border: 1px solid #d9d9d9 !important;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 50px;
+  color: #333 !important;
+  font-family: var(--font);
+  text-align: center;
+}
+
+a.wpsl-btn.wpsl-google {
+  background: #fff;
+  color: #333 !important;
+}
+
+a.wpsl-btn.wpsl-google * {
+  color: #333 !important;
+}
+
+.wpsl-auth-icon {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span.wpsl-divider {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span.wpsl-divider span {
+  padding-inline: 10px;
+}
+
+span.wpsl-divider:after,
+span.wpsl-divider:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #d9d9d9;
+}
+
+span.wpsl-auth-icon img {
+  width: 16px !important;
+}
